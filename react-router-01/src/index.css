@@ -1,0 +1,221 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+#Navbar {
+	width: 100%;
+	height: 70px;
+	border-top: 1px solid #ccc;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	background-color: skyblue;
+	z-index: 10;
+	
+}
+#Navbar p{
+	/* width: 40px; */
+	font-size: 10px;
+}
+
+#Navbar a:nth-of-type(1) div{
+	width: 43px;
+	height: 43px;
+	background: url("http://www.51houniao.com/wx/customer/classic/lib/images/bottom_nav_icon.png") 100%;
+	background-position: 3px -40px;
+	background-size: 200px;
+}
+#Navbar a:nth-of-type(2) div{
+	width: 43px;
+	height: 43px;
+	background: url("http://www.51houniao.com/wx/customer/classic/lib/images/bottom_nav_icon.png") 100%;
+	background-position: -37px -40px;
+	background-size: 200px;
+}
+#Navbar a:nth-of-type(3) div{
+	width: 43px;
+	height: 43px;
+	background: url("http://www.51houniao.com/wx/customer/classic/lib/images/bottom_nav_icon.png") 100%;
+	background-position: -80px 0px;
+	background-size: 200px;
+}
+#Navbar a:nth-of-type(4) div{
+	width: 43px;
+	height: 43px;
+	background: url("http://www.51houniao.com/wx/customer/classic/lib/images/bottom_nav_icon.png") 100%;
+	background-position: -120px -40px;
+	background-size: 200px;
+}
+#Navbar a:nth-of-type(5) div{
+	width: 43px;
+	height: 43px;
+	background: url("http://www.51houniao.com/wx/customer/classic/lib/images/bottom_nav_icon.png") 100%;
+	background-position: -157px -40px;
+	background-size: 200px;
+}
+#Navbar .active:nth-of-type(1) div{
+	width: 43px;
+	height: 43px;
+	background: url("http://www.51houniao.com/wx/customer/classic/lib/images/bottom_nav_icon.png") 100%;
+	background-position: 3px 0px;
+	background-size: 200px;
+}
+#Navbar .active:nth-of-type(2) div{
+	width: 43px;
+	height: 43px;
+	background: url("http://www.51houniao.com/wx/customer/classic/lib/images/bottom_nav_icon.png") 100%;
+	background-position: -37px 0px;
+	background-size: 200px;
+}
+
+#Navbar .active:nth-of-type(4) div{
+	width: 43px;
+	height: 43px;
+	background: url("http://www.51houniao.com/wx/customer/classic/lib/images/bottom_nav_icon.png") 100%;
+	background-position: -120px 0px;
+	background-size: 200px;
+}
+#Navbar .active:nth-of-type(5) div{
+	width: 43px;
+	height: 43px;
+	background: url("http://www.51houniao.com/wx/customer/classic/lib/images/bottom_nav_icon.png") 100%;
+	background-position: -157px 0px;
+	background-size: 200px;
+}
+#word{
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#bet {
+	display: flex;
+	justify-content: space-between;
+}
+
+#like {
+	position: absolute;
+	bottom: 10px;
+	left: 170px;
+	color: red;
+}
+
+#iLike {
+	padding: 10px;
+	border-top: 1px solid #ccc;
+	margin-bottom: 70px;
+}
+
+
+#iLike li {
+	position: relative;
+	margin: 10px 0;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#iLike li a {
+	display: flex;
+}
+
+#iLike img {
+	width: 200px;
+	height: 120px;
+	margin-right: 20px;
+}
+.active{
+	color: green;
+}
+
+#inp{
+	margin-top: 20px;
+	position: relative;
+	left:50%;
+	width: 80%;
+	height: 50px;
+	border-radius: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	transform: translateX(-50%);
+	
+}
+#fTitle{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+	border-top: 1px solid #ccc;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 24px;
+}
+#fTitle a p{
+	width: 260px;
+	text-align: center;
+}
+#zhou{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#zhou ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#jijie{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#jijie>ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#lol ul{
+	margin-bottom: 50px;
+}
+#lol ul img{
+	width: 500px;
+}
+#lol ul li p{
+	text-align: center;
+}
+#lol ul li div{
+	text-align: center;
+}
